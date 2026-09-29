@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="130 0 610 420" role="img" aria-labelledby="title">
+  <title id="title">SANCTuM house and heart mark</title>
+  <g fill="none" stroke="#176044" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 204 400 32l250 172" stroke-width="20"/>
+    <circle cx="710" cy="148" r="24" stroke-width="4"/>
+  </g>
+  <text x="710" y="157" fill="#176044" font-family="Georgia,serif" font-size="27" font-weight="700" text-anchor="middle">S</text>
+  <path fill="#176044" d="M400 386c-24-20-102-87-102-151 0-42 28-70 68-70 19 0 35 10 45 28 10-18 26-28 45-28 40 0 68 28 68 70 0 64-78 131-102 151l-11 10z"/>
+</svg>

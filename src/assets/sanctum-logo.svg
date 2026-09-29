@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-labelledby="title desc">
+  <title id="title">SANCTuM, The LivaRo Way</title>
+  <desc id="desc">A green roof and heart mark above the SANCTuM wordmark, with The LivaRo Way in gold.</desc>
+  <g fill="none" stroke="#176044" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 204 400 32l250 172" stroke-width="20"/>
+    <circle cx="710" cy="148" r="24" stroke-width="4"/>
+  </g>
+  <text x="710" y="157" fill="#176044" font-family="Georgia,serif" font-size="27" font-weight="700" text-anchor="middle">S</text>
+  <path fill="#176044" d="M400 386c-24-20-102-87-102-151 0-42 28-70 68-70 19 0 35 10 45 28 10-18 26-28 45-28 40 0 68 28 68 70 0 64-78 131-102 151l-11 10z"/>
+  <text x="400" y="486" fill="#176044" font-family="Georgia,'Times New Roman',serif" font-size="92" font-weight="700" letter-spacing="2" text-anchor="middle">SANCTuM</text>
+  <path d="M148 548h84m336 0h84" stroke="#ad9148" stroke-width="4"/>
+  <text x="400" y="561" fill="#ad9148" font-family="Georgia,'Times New Roman',serif" font-size="39" font-style="italic" text-anchor="middle">The LivaRo Way</text>
+</svg>
