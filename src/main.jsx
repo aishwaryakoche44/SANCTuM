@@ -98,7 +98,7 @@ function App() {
 
   return (
     <div className="min-h-screen overflow-x-clip">
-      <header className="site-nav sticky top-3 z-50 mb-4 px-3">
+      <header className="site-nav sticky top-0 z-50 mb-4 px-3">
         <div className="nav-shell mx-auto flex max-w-7xl items-center justify-between px-4 py-2.5 sm:px-5 lg:px-7">
           <button onClick={() => scrollTo('home')} className="brand-mark text-left" aria-label="SnehBandhu home">
             <img src={sanctumMark} alt="" className="nav-logo" />
