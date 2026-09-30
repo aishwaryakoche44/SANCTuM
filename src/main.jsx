@@ -24,19 +24,19 @@ const overseas = [
 ]
 
 const services = [
-  { icon: HeartHandshake, title: 'SnehMitra', text: 'Companionship for walks, temple visits, conversation and everyday emotional support, helping reduce loneliness while protecting dignity.' },
+  { icon: HeartHandshake, title: 'Companionship', text: 'Companionship for walks, temple visits, conversation and everyday emotional support, helping reduce loneliness while protecting dignity.' },
   { icon: Stethoscope, title: 'Hospital-Level Expertise at Home', text: 'Doctor home visits, specialised nursing, health monitoring and coordinated support designed to bring clinical care into the home.' },
   { icon: Globe2, title: 'Family Connect', text: 'WhatsApp health reports, video updates and immediate alerts help children and families stay informed even when they live far away.' },
   { icon: ShieldCheck, title: 'Emergency & Safety', text: '24/7 emergency coordination, clear escalation pathways and home-safety support help families respond when urgent needs arise.' },
-  { icon: Activity, title: 'Sneh Salagna', text: 'Post-hospital recovery and rehabilitation support designed to make the transition from hospital to home safer and more organised.' },
+  { icon: Activity, title: 'Recovery & Rehabilitation', text: 'Post-hospital recovery and rehabilitation support designed to make the transition from hospital to home safer and more organised.' },
   { icon: Home, title: 'Dignified Ageing', text: 'A holistic care approach bringing preventive health, home care, rehabilitation, family connectivity and emotional support together.' },
 ]
 
 const plans = [
-  { name: 'Vindhyachal', tone: 'Foundation', text: 'A mountain-themed membership level within the SnehBandhu support system.', perks: ['Companionship support', 'Family communication', 'Care coordination'] },
+  { name: 'Vindhyachal', tone: 'Foundation', text: 'A mountain-themed membership level within the SANCTuM care system.', perks: ['Companionship support', 'Family communication', 'Care coordination'] },
   { name: 'Nilgiri', tone: 'Connected', text: 'A higher layer of ongoing support for families seeking more regular visibility.', perks: ['Family communication', 'Care coordination', 'Support follow-through'] },
   { name: 'Sahyadri', tone: 'Enhanced', text: 'An enhanced support level for evolving home-health and care requirements.', perks: ['Doctor coordination', 'Nursing support', 'Family updates'] },
-  { name: 'Himalaya', tone: 'Comprehensive', text: 'The highest mountain-themed tier described in the supplied SnehBandhu material.', perks: ['Doctor coordination', 'Nursing support', 'Family updates'] },
+  { name: 'Himalaya', tone: 'Comprehensive', text: 'The highest mountain-themed tier in the SANCTuM care system.', perks: ['Doctor coordination', 'Nursing support', 'Family updates'] },
 ]
 
 const principles = [
@@ -100,11 +100,11 @@ function App() {
     <div className="min-h-screen overflow-x-clip">
       <header className="site-nav sticky top-0 z-50 mb-4 px-3">
         <div className="nav-shell mx-auto flex max-w-7xl items-center justify-between px-4 py-2.5 sm:px-5 lg:px-7">
-          <button onClick={() => scrollTo('home')} className="brand-mark text-left" aria-label="SnehBandhu home">
+          <button onClick={() => scrollTo('home')} className="brand-mark text-left" aria-label="SANCTuM home">
             <img src={sanctumMark} alt="" className="nav-logo" />
             <div>
-              <div className="font-display text-lg font-semibold text-[#006b52] sm:text-xl">SnehBandhu</div>
-              <div className="text-[8px] font-semibold tracking-[.16em] text-[#8c7140] sm:text-[9px]">SENIOR CARE · FAMILY TRUST</div>
+              <div className="font-display text-lg font-semibold text-[#006b52] sm:text-xl">SANCTuM</div>
+              <div className="text-[8px] font-semibold tracking-[.16em] text-[#8c7140] sm:text-[9px]">THE LIVARO WAY</div>
             </div>
           </button>
           <nav aria-label="Main navigation" className="hidden items-center gap-1 lg:flex">
@@ -127,7 +127,7 @@ function App() {
             <div className="reveal">
                 <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#d4b06a]/50 bg-white/70 px-4 py-2 text-xs font-bold uppercase tracking-[.16em] text-[#8b6c31]"><Sparkles size={14}/> Care Beyond Distance</div>
               <h1 className="max-w-3xl font-display text-5xl font-semibold leading-[1.03] text-[#004c3b] sm:text-5xl lg:text-[4.25rem] lg:leading-[.98]">Bridging the distance with care & dignity.</h1>
-              <p className="mt-4 max-w-2xl text-lg leading-[1.5] text-slate-600">SnehBandhu is built to give families peace of mind when parents or loved ones are ageing at home and children live in another city or country.</p>
+              <p className="mt-4 max-w-2xl text-lg leading-[1.5] text-slate-600">SANCTuM is built to give families peace of mind when parents or loved ones are ageing at home and children live in another city or country.</p>
               <div className="mt-5 flex flex-col gap-3 sm:flex-row">
                 <button onClick={() => scrollTo('contact')} className="inline-flex items-center justify-center gap-2 rounded-full bg-[#006b52] px-6 py-3 font-semibold text-white shadow-xl shadow-emerald-900/15 transition hover:-translate-y-0.5 hover:bg-[#004c3b]">Start a care conversation <ArrowRight size={18}/></button>
                 <a href="tel:+919975558892" className="inline-flex items-center justify-center gap-2 rounded-full border border-[#006b52]/20 bg-white/80 px-6 py-3 font-semibold text-[#006b52] transition hover:bg-white"><Phone size={18}/> Call office</a>
@@ -144,12 +144,12 @@ function App() {
                 <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-[#d4b06a]/15 blur-2xl" />
                 <div className="relative">
                   <div className="flex items-center justify-between">
-                    <span className="rounded-full bg-white/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[.18em] text-[#ead19a]">SnehBandhu Care Model</span>
+                    <span className="rounded-full bg-white/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[.18em] text-[#ead19a]">SANCTuM Care Model</span>
                     <HeartPulse className="text-[#d4b06a]" size={24}/>
                   </div>
                   <div className="mt-5 flex justify-center"><CareOrbit /></div>
                   <div className="hero-mini-grid mt-4 grid grid-cols-2 gap-2">
-                    <MiniStat icon={HeartHandshake} title="SnehMitra" text="Companionship" dark />
+                    <MiniStat icon={HeartHandshake} title="Companionship" text="Everyday support" dark />
                     <MiniStat icon={Stethoscope} title="Home Care" text="Clinical support" dark />
                     <MiniStat icon={Globe2} title="Family Connect" text="Updates & alerts" dark />
                     <MiniStat icon={ShieldCheck} title="Safety" text="Emergency support" dark />
@@ -163,21 +163,21 @@ function App() {
         <section id="about" className="bg-white py-20 lg:py-28">
           <div className="about-layout scroll-reveal mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[.9fr_1.1fr] lg:gap-14 lg:px-8">
             <div>
-              <Eyebrow>About SnehBandhu</Eyebrow>
+              <Eyebrow>About SANCTuM</Eyebrow>
               <h2 className="mt-4 font-display text-4xl font-semibold leading-tight text-[#004c3b] sm:text-5xl">A holistic senior-care ecosystem built around trust.</h2>
-              <p className="mt-6 leading-8 text-slate-600">The supplied SnehBandhu material describes a care model that combines preventive health, home care, rehabilitation, family connectivity and emotional support. The goal is not only service delivery, but dignified ageing and reassurance for families.</p>
+              <p className="mt-6 leading-8 text-slate-600">The SANCTuM care model combines preventive health, home care, rehabilitation, family connectivity and emotional support. The goal is not only service delivery, but dignified ageing and reassurance for families.</p>
               <div className="mt-8 space-y-4">
                 {['Companions, not just providers', 'Hospital quality in home comfort', 'A bridge for families living far away', 'Care with dignity, safety and continuity'].map(x => <div key={x} className="flex items-center gap-3"><span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#006b52]/10 text-[#006b52]"><Check size={16}/></span><span className="font-medium text-slate-700">{x}</span></div>)}
               </div>
             </div>
             <div className="about-support">
               <div className="about-cards grid gap-4 sm:grid-cols-2">
-                <InfoCard icon={HeartHandshake} title="Compassion" text="SnehMitra adds human companionship to the care journey, including walks, temple visits and conversation." />
+                <InfoCard icon={HeartHandshake} title="Compassion" text="Human companionship is part of the care journey, including walks, temple visits and conversation." />
                 <InfoCard icon={Stethoscope} title="Clinical expertise" text="Doctor-led coordination, home visits, monitoring and specialised nursing support are part of the model." />
                 <InfoCard icon={Globe2} title="Family trust" text="Regular reports and alerts help children stay connected to a parent's wellbeing from wherever they live." />
                 <InfoCard icon={ShieldCheck} title="Dignified safety" text="Emergency coordination, home safety and continuity of support are designed to reduce uncertainty." />
               </div>
-              <div className="care-pathway" aria-label="How SnehBandhu care connects">
+              <div className="care-pathway" aria-label="How SANCTuM care connects">
                 <div className="pathway-step"><span><HeartHandshake size={18}/></span><div><strong>Presence</strong><small>Companionship</small></div></div>
                 <div className="pathway-step"><span><Stethoscope size={18}/></span><div><strong>Expertise</strong><small>Clinical care</small></div></div>
                 <div className="pathway-step"><span><Globe2 size={18}/></span><div><strong>Connection</strong><small>Family updates</small></div></div>
@@ -189,7 +189,7 @@ function App() {
         <section id="services" className="bg-[#fbf8f1] py-20 lg:py-28">
           <div className="scroll-reveal mx-auto max-w-7xl px-5 lg:px-8">
             <div className="services-intro">
-              <div className="max-w-3xl"><Eyebrow>Holistic Care Service Pillars</Eyebrow><h2 className="mt-4 font-display text-4xl font-semibold text-[#004c3b] sm:text-5xl">Care that covers the person, the home and the family.</h2><p className="mt-5 leading-7 text-slate-600">The service themes below are based on the supplied SnehBandhu reference material, organised into a website-ready care experience.</p></div>
+              <div className="max-w-3xl"><Eyebrow>Holistic Care Service Pillars</Eyebrow><h2 className="mt-4 font-display text-4xl font-semibold text-[#004c3b] sm:text-5xl">Care that covers the person, the home and the family.</h2><p className="mt-5 leading-7 text-slate-600">SANCTuM brings preventive health, home care, rehabilitation, family connection and emotional support together in one care experience.</p></div>
               <figure className="service-photo">
                 <img src={seniorClinicalCare} alt="A clinician providing attentive care to an older patient" />
                 <figcaption><Stethoscope size={17}/> Clinical care, delivered with warmth</figcaption>
@@ -201,7 +201,7 @@ function App() {
 
         <section id="plans" className="bg-[#eaf2e9] py-20 lg:py-28">
           <div className="scroll-reveal mx-auto max-w-7xl px-5 lg:px-8">
-            <div className="max-w-3xl"><Eyebrow light>Mountain Care Plans</Eyebrow><h2 className="mt-4 font-display text-4xl font-semibold sm:text-5xl">Support as unshakable as mountains.</h2><p className="mt-5 leading-7 text-white/70">The supplied material names four membership levels: Vindhyachal, Nilgiri, Sahyadri and Himalaya. The exact pricing and final inclusions should be confirmed with the SnehBandhu office.</p></div>
+            <div className="max-w-3xl"><Eyebrow light>Mountain Care Plans</Eyebrow><h2 className="mt-4 font-display text-4xl font-semibold sm:text-5xl">Support as unshakable as mountains.</h2><p className="mt-5 leading-7 text-white/70">Choose from four membership levels: Vindhyachal, Nilgiri, Sahyadri and Himalaya. Contact the SANCTuM team to confirm pricing and plan inclusions.</p></div>
             <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">{plans.map((plan,i)=><div key={plan.name} className="plan-card rounded-3xl border border-white/10 bg-white/[.06] p-6"><div className="mountain-number">0{i+1}</div><div className="mt-5 text-xs font-bold uppercase tracking-[.18em] text-[#d4b06a]">{plan.tone}</div><h3 className="mt-2 font-display text-2xl font-semibold">{plan.name}</h3><p className="mt-3 text-sm leading-6 text-white/65">{plan.text}</p><div className="mt-6 space-y-3">{plan.perks.map(p=><div key={p} className="flex items-center gap-2 text-sm text-white/80"><Check size={15} className="text-[#d4b06a]"/>{p}</div>)}</div></div>)}</div>
           </div>
         </section>
@@ -215,9 +215,9 @@ function App() {
 
         <section id="contact" className="bg-[#eaf2e9] py-20 lg:py-28">
           <div className="scroll-reveal mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[1fr_.85fr] lg:px-8">
-            <div><Eyebrow light>Start a conversation</Eyebrow><h2 className="mt-4 font-display text-4xl font-semibold sm:text-5xl">Let’s make care feel closer.</h2><p className="mt-5 max-w-xl leading-7 text-white/70">Tell the office team what kind of support your family is looking for. They can guide you to the appropriate next step.</p>
+            <div><Eyebrow light>Start a conversation</Eyebrow><h2 className="mt-4 font-display text-4xl font-semibold sm:text-5xl">Let’s make care feel closer.</h2><p className="mt-5 max-w-xl leading-7 text-white/70">Tell the SANCTuM team what kind of support your family is looking for. They can guide you to the appropriate next step.</p>
               <div className="mt-9 space-y-4">{office.map(x=><a key={x.phone} href={`tel:${x.phone.replace(/[^+\d]/g,'')}`} className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#d4b06a] text-[#173d32]"><Phone size={18}/></span><div><div className="font-semibold">{x.name}</div><div className="text-sm text-white/60">{x.phone}</div></div></a>)}</div>
-              <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5"><div className="flex gap-3"><MapPin className="mt-1 shrink-0 text-[#d4b06a]" size={20}/><div className="text-sm leading-6 text-white/75"><strong className="text-white">SnehBandhu — Shriniwas Healthcare Clinic</strong><br/>Anuram Apartment, Kathe Galli – Mumbai Naka Link Road,<br/>Opp. Atal Bihari Vajpayee School, Bankar Chowk,<br/>Dwarka, Nashik, Maharashtra 422011</div></div><a href="mailto:care@snehbandhu.in" className="mt-4 flex items-center gap-3 text-sm font-semibold text-[#d4b06a]"><Mail size={17}/> care@snehbandhu.in</a></div>
+              <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5"><div className="flex gap-3"><MapPin className="mt-1 shrink-0 text-[#d4b06a]" size={20}/><div className="text-sm leading-6 text-white/75"><strong className="text-white">SANCTuM — Shriniwas Healthcare Clinic</strong><br/>Anuram Apartment, Kathe Galli – Mumbai Naka Link Road,<br/>Opp. Atal Bihari Vajpayee School, Bankar Chowk,<br/>Dwarka, Nashik, Maharashtra 422011</div></div><a href="mailto:care@snehbandhu.in" className="mt-4 flex items-center gap-3 text-sm font-semibold text-[#d4b06a]"><Mail size={17}/> care@snehbandhu.in</a></div>
             </div>
             <div className="rounded-[2rem] bg-[#fbf8f1] p-6 text-slate-900 shadow-soft sm:p-8"><h3 className="font-display text-2xl font-semibold text-[#004c3b]">Request a callback</h3><p className="mt-2 text-sm text-slate-500">Share a few details and the team can contact you.</p><form className="mt-7 space-y-4" onSubmit={e=>{e.preventDefault(); alert(`Thank you ${form.name || 'for reaching out'}. Please call the office directly for immediate assistance.`)}}><Field label="Name" value={form.name} onChange={v=>setForm({...form,name:v})} placeholder="Your name"/><Field label="Phone" value={form.phone} onChange={v=>setForm({...form,phone:v})} placeholder="Your phone number"/><label className="block"><span className="mb-2 block text-sm font-semibold">How can we help?</span><textarea value={form.message} onChange={e=>setForm({...form,message:e.target.value})} rows="4" placeholder="Tell us what support you are looking for..." className="w-full resize-none rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none transition focus:border-[#006b52] focus:ring-4 focus:ring-[#006b52]/10"/></label><button className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#006b52] px-5 py-3.5 font-semibold text-white transition hover:bg-[#004c3b]">Send enquiry <ArrowRight size={17}/></button></form><p className="mt-4 text-center text-xs text-slate-400">For urgent situations, please contact emergency medical services directly.</p></div>
           </div>
@@ -226,14 +226,14 @@ function App() {
         <section className="bg-[#fbf8f1] py-16"><div className="mx-auto max-w-7xl px-5 lg:px-8"><div className="grid gap-8 lg:grid-cols-[1.2fr_.8fr]"><div><Eyebrow>Overseas Coordinators</Eyebrow><h2 className="mt-3 font-display text-3xl font-semibold text-[#004c3b]">A family network that reaches across borders.</h2><p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">The supplied contact reference lists coordinators for families connecting from Singapore, the USA and the UK.</p><div className="mt-6 grid gap-3 sm:grid-cols-2">{overseas.map(x=><a key={x.name} href={`tel:${x.phone.replace(/[^+\d]/g,'')}`} className="flex items-center gap-3 rounded-2xl border border-emerald-900/10 bg-white p-4 transition hover:-translate-y-0.5 hover:shadow-card"><span className="text-xl">{x.flag}</span><div><div className="text-sm font-semibold text-slate-800">{x.name}</div><div className="text-xs text-slate-500">{x.phone}</div></div></a>)}</div></div><div className="network-panel rounded-3xl p-7"><div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#d4b06a]/20 text-[#d4b06a]"><Globe2 size={24}/></div><h3 className="mt-6 font-display text-2xl font-semibold text-white">Care Beyond Distance</h3><p className="mt-3 text-sm leading-6 text-white/65">Regular communication helps families remain part of the care journey even when they cannot be physically present.</p><div className="mt-7 space-y-3"><MiniLine icon={MessageCircle} text="WhatsApp health reports"/><MiniLine icon={HeartPulse} text="Video updates"/><MiniLine icon={ShieldCheck} text="Immediate alerts"/></div></div></div></div></section>
 
         <section className="bg-white py-16"><div className="mx-auto max-w-4xl px-5 lg:px-8"><div className="text-center"><Eyebrow>Common questions</Eyebrow><h2 className="mt-3 font-display text-3xl font-semibold text-[#004c3b]">A few things families ask.</h2></div><div className="mt-8 divide-y divide-slate-200 rounded-3xl border border-slate-200 bg-white">{[
-          ['Where is the clinic located?','SnehBandhu — Shriniwas Healthcare Clinic is listed at Anuram Apartment, Kathe Galli – Mumbai Naka Link Road, opposite Atal Bihari Vajpayee School, Bankar Chowk, Dwarka, Nashik, Maharashtra 422011.'],
-          ['Can children living abroad stay updated?','Yes. The supplied SnehBandhu material describes WhatsApp health reports, video updates and emergency alerts for families living in other cities and countries.'],
-          ['What are the mountain-themed plans?','The material names four plans: Vindhyachal, Nilgiri, Sahyadri and Himalaya. Exact pricing and final inclusions should be confirmed with the SnehBandhu office.'],
+          ['Where is the clinic located?','SANCTuM — Shriniwas Healthcare Clinic is located at Anuram Apartment, Kathe Galli – Mumbai Naka Link Road, opposite Atal Bihari Vajpayee School, Bankar Chowk, Dwarka, Nashik, Maharashtra 422011.'],
+          ['Can children living abroad stay updated?','Yes. SANCTuM provides WhatsApp health reports, video updates and emergency alerts for families living in other cities and countries.'],
+          ['What are the mountain-themed plans?','SANCTuM offers four plans: Vindhyachal, Nilgiri, Sahyadri and Himalaya. Contact the team to confirm pricing and inclusions.'],
           ['Is this only medical care?','No. The supplied material combines companionship, home-based clinical support, family connectivity, emergency coordination and post-hospital recovery.']
         ].map(([q,a],i)=><div key={q} className="px-5"><button onClick={()=>setFaq(faq===i?null:i)} className="flex w-full items-center justify-between gap-4 py-5 text-left font-semibold text-slate-800">{q}<ChevronDown className={`shrink-0 transition ${faq===i?'rotate-180':''}`} size={19}/></button>{faq===i&&<p className="pb-5 pr-8 text-sm leading-6 text-slate-600">{a}</p>}</div>)}</div></div></section>
       </main>
 
-      <footer className="px-5 py-10"><div className="mx-auto flex max-w-7xl flex-col gap-7 lg:flex-row lg:items-center lg:justify-between lg:px-8"><div><div className="font-display text-lg text-[#004c3b]">SnehBandhu</div><div className="text-xs tracking-[.18em] text-slate-600">SENIOR CARE · FAMILY TRUST · NASHIK</div></div><div className="flex flex-wrap gap-x-6 gap-y-2 text-sm"><a href="tel:+919975558892" className="hover:text-[#006b52]">+91 99755 58892</a><a href="mailto:care@snehbandhu.in" className="hover:text-[#006b52]">care@snehbandhu.in</a><button onClick={()=>scrollTo('contact')} className="hover:text-[#006b52]">Contact</button></div><div className="text-xs text-slate-500"><div>© {new Date().getFullYear()} SnehBandhu. Care with dignity.</div><div className="mt-1 text-[11px] text-slate-400">Website by Aishwarya Koche</div></div></div></footer>
+      <footer className="px-5 py-10"><div className="mx-auto flex max-w-7xl flex-col gap-7 lg:flex-row lg:items-center lg:justify-between lg:px-8"><div className="flex items-center gap-3"><img src={sanctumMark} alt="" className="nav-logo"/><div><div className="font-display text-lg text-[#004c3b]">SANCTuM</div><div className="text-xs tracking-[.18em] text-slate-600">THE LIVARO WAY</div></div></div><div className="flex flex-wrap gap-x-6 gap-y-2 text-sm"><a href="tel:+919975558892" className="hover:text-[#006b52]">+91 99755 58892</a><a href="mailto:care@snehbandhu.in" className="hover:text-[#006b52]">care@snehbandhu.in</a><button onClick={()=>scrollTo('contact')} className="hover:text-[#006b52]">Contact</button></div><div className="text-xs text-slate-500"><div>© {new Date().getFullYear()} SANCTuM. The LivaRo Way.</div><div className="mt-1 text-[11px] text-slate-400">Website by Aishwarya Koche</div></div></div></footer>
     </div>
   )
 }
@@ -242,7 +242,7 @@ function CareOrbit() {
   const items = [
     [HeartHandshake, 'Compassion'], [Stethoscope, 'Clinical Care'], [Globe2, 'Family Connect'], [ShieldCheck, 'Safety'], [Activity, 'Recovery']
   ]
-  return <div className="orbit"><div className="orbit-core"><div className="font-display text-2xl font-semibold">Sneh</div><div className="text-[10px] uppercase tracking-[.25em] text-[#d4b06a]">Bandhu</div></div><div className="orbit-track">{items.map(([Icon,label],i)=><div key={label} className={`orbit-item orbit-${i}`}><div className="orbit-item-content"><span><Icon size={18}/></span><small>{label}</small></div></div>)}</div></div>
+  return <div className="orbit"><div className="orbit-core"><div className="font-display whitespace-nowrap text-[16px] font-semibold leading-none">SANCTuM</div><div className="mt-1 whitespace-nowrap text-[7px] uppercase leading-none tracking-[.06em] text-[#d4b06a]">THE LIVARO WAY</div></div><div className="orbit-track">{items.map(([Icon,label],i)=><div key={label} className={`orbit-item orbit-${i}`}><div className="orbit-item-content"><span><Icon size={18}/></span><small>{label}</small></div></div>)}</div></div>
 }
 function Eyebrow({children, light=false}) { return <div className={`flex items-center gap-3 text-xs font-bold uppercase tracking-[.22em] ${light?'text-[#d4b06a]':'text-[#a17d38]'}`}><span className="h-px w-8 bg-current"/>{children}</div> }
 function Stat({number,label}) { return <div><div className="font-display text-2xl font-semibold text-[#006b52]">{number}</div><div className="mt-1 text-[11px] font-semibold uppercase tracking-wider text-slate-500">{label}</div></div> }
